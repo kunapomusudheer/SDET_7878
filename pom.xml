@@ -23,7 +23,7 @@
         <version>3.0.0-M7</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>Batch.xml</suiteXmlFile>
+            <suiteXmlFile>testngBatch.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -83,7 +83,7 @@
 	
 	<profiles>
 		<profile>
-			<id>Smoke</id>
+			<id>testngSmoke</id>
                <build>
      	<plugins>
 			<!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->

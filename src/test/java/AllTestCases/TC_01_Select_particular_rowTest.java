@@ -41,7 +41,7 @@ public class TC_01_Select_particular_rowTest extends BaseClass{
 		System.out.println(lastrow_lastcolumn);
 		Thread.sleep(5000);
 		//Thread.sleep(2000);
-		System.out.println("irfan");
+		
 		
 		
 	}

@@ -2,43 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-06T16:14:53Z" name="Default suite" finished-at="2022-08-06T16:15:35Z" duration-ms="41334">
+  <suite started-at="2022-08-12T09:49:23Z" name="Default suite" finished-at="2022-08-12T09:50:20Z" duration-ms="56564">
     <groups>
       <group name="Regression">
-        <method signature="TC_03_create_compare_ContactTest.abcd()[pri:0, instance:AllTestCases.TC_03_create_compare_ContactTest@5b367418]" name="abcd" class="AllTestCases.TC_03_create_compare_ContactTest"/>
+        <method signature="TC_06_createorg_selectall_deleteTest.exampl()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" name="exampl" class="AllTestCases.TC_06_createorg_selectall_deleteTest"/>
       </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC_06_createorg_selectall_deleteTest.exampl()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" name="exampl" class="AllTestCases.TC_06_createorg_selectall_deleteTest"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-08-06T16:14:53Z" name="Default test" finished-at="2022-08-06T16:15:35Z" duration-ms="41334">
-      <class name="AllTestCases.TC_03_create_compare_ContactTest">
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:AllTestCases.TC_03_create_compare_ContactTest@5b367418]" started-at="2022-08-06T16:14:53Z" name="connectToDB" finished-at="2022-08-06T16:14:53Z" duration-ms="25" status="PASS">
+    <test started-at="2022-08-12T09:49:23Z" name="Default test" finished-at="2022-08-12T09:50:20Z" duration-ms="56564">
+      <class name="AllTestCases.TC_06_createorg_selectall_deleteTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" started-at="2022-08-12T09:49:23Z" name="connectToDB" finished-at="2022-08-12T09:49:23Z" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectToDB -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:AllTestCases.TC_03_create_compare_ContactTest@5b367418]" started-at="2022-08-06T16:14:53Z" name="launchBrowser" finished-at="2022-08-06T16:15:02Z" duration-ms="8608" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" started-at="2022-08-12T09:49:23Z" name="launchBrowser" finished-at="2022-08-12T09:49:32Z" duration-ms="8499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logionAppln()[pri:0, instance:AllTestCases.TC_03_create_compare_ContactTest@5b367418]" started-at="2022-08-06T16:15:02Z" name="logionAppln" finished-at="2022-08-06T16:15:05Z" duration-ms="3303" status="PASS">
+        <test-method is-config="true" signature="logionAppln()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" started-at="2022-08-12T09:49:32Z" name="logionAppln" finished-at="2022-08-12T09:49:35Z" duration-ms="3162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logionAppln -->
-        <test-method signature="abcd()[pri:0, instance:AllTestCases.TC_03_create_compare_ContactTest@5b367418]" started-at="2022-08-06T16:15:05Z" name="abcd" finished-at="2022-08-06T16:15:29Z" duration-ms="23969" status="PASS">
+        <test-method signature="exampl()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" started-at="2022-08-12T09:49:35Z" name="exampl" finished-at="2022-08-12T09:50:15Z" duration-ms="39729" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- abcd -->
-        <test-method is-config="true" signature="logoutAppln()[pri:0, instance:AllTestCases.TC_03_create_compare_ContactTest@5b367418]" started-at="2022-08-06T16:15:29Z" name="logoutAppln" finished-at="2022-08-06T16:15:32Z" duration-ms="2258" status="PASS">
+        </test-method> <!-- exampl -->
+        <test-method is-config="true" signature="logoutAppln()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" started-at="2022-08-12T09:50:15Z" name="logoutAppln" finished-at="2022-08-12T09:50:16Z" duration-ms="1802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutAppln -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AllTestCases.TC_03_create_compare_ContactTest@5b367418]" started-at="2022-08-06T16:15:32Z" name="closeBrowser" finished-at="2022-08-06T16:15:35Z" duration-ms="3145" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" started-at="2022-08-12T09:50:16Z" name="closeBrowser" finished-at="2022-08-12T09:50:20Z" duration-ms="3339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeConnectToDB()[pri:0, instance:AllTestCases.TC_03_create_compare_ContactTest@5b367418]" started-at="2022-08-06T16:15:35Z" name="closeConnectToDB" finished-at="2022-08-06T16:15:35Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeConnectToDB()[pri:0, instance:AllTestCases.TC_06_createorg_selectall_deleteTest@5b367418]" started-at="2022-08-12T09:50:20Z" name="closeConnectToDB" finished-at="2022-08-12T09:50:20Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeConnectToDB -->
-      </class> <!-- AllTestCases.TC_03_create_compare_ContactTest -->
+      </class> <!-- AllTestCases.TC_06_createorg_selectall_deleteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
